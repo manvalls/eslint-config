@@ -1,0 +1,25 @@
+{
+  "name": "@vlrz/eslint-config",
+  "version": "1.0.0",
+  "description": "manvalls eslint config",
+  "main": "./src/index.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/manvalls/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manvalls/eslint-config/issues"
+  },
+  "peerDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "scripts": {
+    "lint": "eslint src/**"
+  },
+  "author": "Manuel Valls Fernández <manolo@vlrz.es>",
+  "license": "Apache-2.0"
+}
