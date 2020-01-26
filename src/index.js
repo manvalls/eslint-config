@@ -17,7 +17,7 @@ module.exports = {
     'keyword-spacing': 'error',
     'no-trailing-spaces': 'error',
     'no-whitespace-before-property': 'error',
-    'object-curly-spacing': 'error',
+    'object-curly-spacing': ['error', 'always'],
     'quotes': ['error', 'single'],
     'semi': ['error', 'never'],
     'space-before-blocks': 'error',
