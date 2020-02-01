@@ -21,7 +21,11 @@ module.exports = {
     'quotes': ['error', 'single'],
     'semi': ['error', 'never'],
     'space-before-blocks': 'error',
-    'space-before-function-paren': ['error', 'never'],
+    'space-before-function-paren': ['error', {
+      'anonymous': 'never',
+      'named': 'never',
+      'asyncArrow': 'always',
+    }],
     'space-in-parens': 'error',
     'space-unary-ops': 'error',
     'switch-colon-spacing': 'error',
