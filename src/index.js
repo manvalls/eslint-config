@@ -35,6 +35,7 @@ module.exports = {
     'rest-spread-spacing': 'error',
     'yield-star-spacing': 'error',
     'brace-style': 'error',
+    'eol-last': 'error',
   },
   'parserOptions': {
     'sourceType': 'module',
