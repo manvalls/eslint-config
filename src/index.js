@@ -40,5 +40,6 @@ module.exports = {
     'commonjs': true,
     'es2020': true,
     'worker': true,
+    'jest': true,
   },
 }
