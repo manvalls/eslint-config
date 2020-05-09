@@ -1,4 +1,8 @@
 module.exports = {
+  'extends': [
+    'plugin:import/errors',
+    'plugin:import/warnings',
+  ],
   'rules': {
     'no-undef': 'error',
     'no-unused-vars': 'error',

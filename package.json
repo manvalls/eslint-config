@@ -3,7 +3,9 @@
   "version": "1.0.6",
   "description": "manvalls eslint config",
   "main": "./src/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "eslint-plugin-import": "^2.20.2"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/manvalls/eslint-config.git"
